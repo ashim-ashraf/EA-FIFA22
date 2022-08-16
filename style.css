@@ -1,0 +1,508 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    }
+    
+
+.topbar{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(12, 11, 11, 0.897);
+    }
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    height: 50px;
+}
+
+    .logo{
+        width: 125px;
+        padding-left:30px;
+        margin-left: 10px ;
+        margin-top: 10px; 
+    }
+
+    .options{
+
+        margin-top: -30px;
+        margin-left: 250px;
+        word-spacing: 20px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .purchase{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height: 32px;
+        width: 188px;
+        margin-right: 10px;
+        padding-top: 10px;
+        text-align: center;
+        margin-top: -32px;
+        margin-left: 1154px;
+        background-color: rgba(199, 233, 49, 0.877);
+    }
+
+    .buy-btn{
+        
+        background: none;
+        border: none;
+        width: 188px;
+        height: 46px;
+        margin-top: -21px;
+    }
+
+    .purchase :hover{
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .grad{
+        width: 100%;
+        height: 100px;
+        background: linear-gradient(45deg, #0e0d45 0%, #b43152 100%);
+    }
+    #member-tag{
+        float: left;
+        width: 50%;
+        color: #fff;
+        padding: 35px;
+        margin-left: 82px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    }
+
+    #playbutton{
+        width: 134px;
+        float: left;
+        margin-left: 124px;
+        margin-top: 28px;
+    }
+
+    
+    
+    #main-image-1{
+        padding-top: 50px;
+        height: 530px;
+        background-image: url("Images&Icons/main image1.png");
+        margin-top: 0px;
+        background-repeat: no-repeat;
+  background-size: contain;
+    }
+   
+    .shapeshifters{
+        
+        padding-top: 50px;
+        padding-left: 100px;
+
+    }
+
+    .para1{
+
+        width: 500px;
+        display: inline block;
+        text-align: justify;
+        color: white;
+        padding-left: 100px;
+    }
+     
+    .joinbutton{
+        border-radius: 3px;
+        width: 137px;
+        margin-left: 27px;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding: 16px;
+        color: #fff;
+        text-align: center;
+        border-style: solid;
+        border-color: #fff;
+        border-width: 2px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: transparent;
+                }
+    
+.joinbutton:hover {
+    cursor: pointer;
+        }
+
+#bgimage2{
+    
+    margin-top: -40px;
+    background-image: url("Images&Icons/eaplaybg2.png");
+    height: 949px;
+    width: 1349px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#eaplaylogo{
+    padding-left: 558px;
+    padding-top: 55px;
+    width: 243px;
+}
+
+#rewardtag{
+    color: #fff;
+    padding-left: 490px;
+    padding-top: 31px;
+    font-size: xx-large;
+    font-family: fantasy;
+    letter-spacing: 6px;
+}
+
+.threeimages{
+    
+    padding-top: 43px;
+    padding-left: 55px;
+    width: 371px;
+    height: 243px;
+    
+}
+
+.threetags{
+    padding-top: 0px;
+    padding-left: 55px;
+    width: 371px;
+    height: 243px;
+}
+
+#button1{
+    color: #fff;
+    background-color: rgb(238, 96, 71);
+    margin-left: 519px;
+    height: 47px;
+    width: 105px;
+    border: solid;
+    border-color: rgb(238, 96, 71);
+    border-radius: 2px;
+}
+
+#button2{
+    color: #fff;
+    background-color: transparent;
+    margin-left: 34px;
+    margin-top: 85px;
+    height: 47px;
+    width: 170px;
+    border: solid;
+    border-color: #fff;
+    border-radius: 2px;
+}
+
+#button1,#button2 {
+    cursor: pointer;
+
+}
+    
+.bgvideo{
+    margin: 0%;
+    padding: 0%;
+    width: 1350px;
+    height: 758px;
+}
+
+
+.hypermotion{
+
+}
+
+.bg-mbappe{
+    background-image: url("Images&Icons/bg-mbappe.jpg");
+    height: 1350px;
+    z-index: -1;
+    width: 1352px;
+    position: absolute;
+}
+.features{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.newfeatures{
+    font-weight: 900;
+    color: rgb(41, 30, 30);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+
+.three-images2{
+    margin-top: 158px;
+}
+
+.gameplay, .careermode, .proclubs{
+    width: 370px;
+    height: 460px;
+    margin-top: -90PX;
+    color: #fff;
+    padding-top: 360px;
+    font-size: x-large;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    border: transparent;
+    
+}
+
+.gameplay{
+    background-image: url("Images&Icons/fifa22gameplay.jpg");
+    background-size: 100%;
+    float: left;
+    margin-left: 107px;
+    transition: transform 0.3s ease;
+}
+
+.gameplay::after, .gameplay::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.gameplay:hover {
+    transform: translate(0px, -12px);
+    cursor: pointer;
+}
+
+.gameplay:hover::after{
+    transform: translate(0px, 6px);
+}
+
+.gameplay:hover::before{
+    transform: translate(0px, 12px);
+}
+
+
+.careermode{
+    background-image: url("Images&Icons/fifa22careermode.jpg");
+    background-size: 100%;
+    float: left;
+    margin-left: 15px;
+    transition: transform 0.3s ease;
+  
+}
+
+.careermode::after, .careermode::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.careermode:hover {
+    transform: translate(0px, -12px);
+    cursor: pointer;
+}
+
+
+
+.careermode:hover::before{
+    transform: translate(0px, 12px);
+}
+
+
+.proclubs{
+    background-image: url("Images&Icons/fifa22proclubs.jpg");
+    background-size: 100%;
+    float: left;
+    margin-left: 15px;
+    transition: transform 0.3s ease;
+}
+
+.proclubs::after, .proclubs::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.proclubs:hover {
+    transform: translate(0px, -12px);
+    cursor: pointer;
+}
+
+.proclubs:hover::after{
+    transform: translate(0px, 6px);
+}
+
+.proclubs:hover::before{
+    transform: translate(0px, 12px);
+}
+
+.mbappe-leftpart{
+    padding-left: 109px;
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+#play-tag{
+    float: left;
+    font-family: fantasy;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    margin-top: 204px;
+    margin-left: 25px;
+}
+
+#headstart-tag{
+    float: left;
+    margin-top: -13px;
+    margin-left: 24px;
+    font-family: system-ui;
+    font-size: revert;
+    font-weight: 500;
+}
+
+#buy-button{
+   
+   
+    margin-top: 29px;
+    width: 112px;
+    padding: 14px;
+    margin-left: -410px;
+    float: left;
+    color: #fff;
+    font-family: fantasy;
+    background-color: rgb(31, 27, 27);
+    border-radius: 3px;
+}
+
+.mbappe{
+    margin-top: 154px;
+    float: right;
+    width: 442px;
+    height: 348px;
+}
+    
+.bottom-bar{
+    
+    background-color: black;
+    color: #fff;
+    padding-top: 35px;
+    padding-left :30px;
+    margin-top: 1200px;
+    height: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.signup{
+    float: right;
+    margin-right: 127px;
+    background-color: #73ce1e;
+    height: 50px;
+    width: 148px;
+    margin-top: -15px;
+    border: solid;
+    border: #73ce1e;
+    border-radius: 3px;
+}
+
+.signup:hover{
+    cursor: pointer;
+}
+
+.footer1{
+    background-color: rgb(44, 41, 41);
+    padding-top: 30px;
+}
+
+.tag1{
+    margin-left: 60px;
+}
+.tag2{
+
+padding-left: 1000px;
+}
+.followfifa{
+    color: #fff;
+    
+}
+
+.footer-options{
+    width: 50%;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+.footer-options a {
+        padding: 0px 25px;
+}
+
+.footer-options a:hover{
+    cursor: pointer;
+    color: #73ce1e;
+}
+
+#footerimage1{
+    padding-top: 50px;
+    padding-left: 59px;
+}
+
+#footerimage2{
+    padding-left: 845px;
+}
+
+.footer2{
+    padding: 60px;
+
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer2 a{
+    padding-left: 60px;
+}
+
+.footer2 a:hover{
+    cursor: pointer;
+}
+
+.legal{  
+    padding-left: 97px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.legal a{
+    padding: 0px 20px;
+}
+
+.legal a:hover{
+cursor: pointer;
+}
+
+
+#credits{
+    padding-top: 20px;
+    padding-left: 116px;
+}
+
+#find-button{
+    border-radius: 3px;
+        width: 137px;
+        margin-left: 101px;
+        margin-top: 20px;
+        padding: 16px;
+        color: #fff;
+        text-align: center;
+        border-style: solid;
+        border-color: #fff;
+        border-width: 2px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: transparent;
+}
